@@ -1,6 +1,7 @@
 {
   "name": "log1x/modern-acf-options",
   "type": "wordpress-muplugin",
+  "license": "MIT",
   "description": "A modern take on ACF Theme Options",
   "keywords": [
     "wordpress",
