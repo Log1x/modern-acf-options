@@ -1,0 +1,120 @@
+.acf-settings-wrap {
+  @apply .shadow .border-black .border-2;
+
+  h1 {
+    @apply .bg-brand .text-white .text-2xl .font-semibold .p-20;
+
+    &::after {
+      @apply .block .text-base .font-thin .opacity-50;
+
+      content: var(--acf-subtitle, 'Theme Options');
+    }
+  }
+
+  .notice {
+    @apply .m-0;
+  }
+
+  br.clear {
+    @apply .hidden;
+  }
+
+  #poststuff {
+    @apply .p-0;
+
+    #post-body {
+      @apply .flex .flex-col .flex-wrap .items-start .m-0 .w-full;
+
+      .postbox-container {
+        @apply .w-full .float-none .m-0;
+
+        .meta-box-sortables {
+          @apply .min-h-0 .h-full .min-w-full;
+
+          .handlediv,
+          .hndle {
+            @apply .hidden;
+          }
+        }
+      }
+    }
+  }
+
+  #postbox-container-2 {
+    .acf-postbox.seamless {
+      @apply .bg-white .m-0 .relative;
+
+      .inside {
+        @apply .m-0 .p-4 .pl-0;
+
+        &.acf-fields.-sidebar {
+          @apply .py-5 .pr-5 .pl-40 .-mb-4 !important;
+
+          &::before {
+            @apply .bg-trim .border-none .py-4 .w-38;
+          }
+
+          .acf-tab-wrap.-left {
+            @apply .p-0 .m-0;
+
+            .acf-tab-group {
+              @apply .border-none .mt-0 .w-38;
+
+              li {
+                @apply .m-0;
+
+                a {
+                  @apply .text-white .bg-trim .px-6 .py-5 .mr-0 .rounded-none .border-none;
+                }
+
+                &.active a,
+                &:hover a,
+                &:focus a {
+                  @apply .text-white .bg-brand;
+                }
+              }
+            }
+          }
+
+          > .acf-field {
+            @apply .shadow .py-5 .px-3 .bg-white .border .border-solid .border-gray-300 .mb-4 .mr-4 .min-h-0 .w-full;
+
+            &:last-of-type {
+              @apply .mb-0;
+            }
+
+            .acf-label label {
+              @apply .font-semibold .mb-0;
+            }
+          }
+
+          .acf-field-accordion {
+            @apply .shadow .ml-0 .border-gray-300;
+          }
+        }
+      }
+    }
+  }
+
+  #postbox-container-1 {
+    @apply .order-2;
+
+    .postbox {
+      @apply .border-none .max-w-full .min-w-0 .bg-trim .mb-0;
+
+      #major-publishing-actions {
+        @apply .bg-transparent .border-none;
+
+        .button {
+          @apply .bg-brand .border-none .shadow-none .outline-none;
+
+          &:hover,
+          &:focus {
+            @apply .bg-brand;
+          }
+        }
+      }
+    }
+  }
+}
+
