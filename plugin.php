@@ -74,6 +74,8 @@ add_action('init', new class
     /**
      * Resolve the URI for an asset using the manifest.
      *
+     * @param  string $asset
+     * @param  string $manifest
      * @return string
      */
     public function asset($asset = '', $manifest = 'mix-manifest.json')
@@ -91,7 +93,7 @@ add_action('init', new class
      * Inject the color properties into the admin head.
      *
      * @param  array $colors
-     * @return string
+     * @return void
      */
     public function injectColors($colors = [])
     {
