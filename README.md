@@ -129,7 +129,6 @@ $ yarn run start
 
 - Continue optimizing/cleaning up existing styles.
 - Add styles for ACF switches, input fields (focus, hover), buttons, etc.
-- Reimplement saving spinner with CSS.
 
 ## Bug Reports
 
