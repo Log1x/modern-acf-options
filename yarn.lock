@@ -6271,6 +6271,13 @@ tailwindcss-animations@^1.0.0:
   dependencies:
     lodash "^4.17.15"
 
+tailwindcss-border-styles@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/tailwindcss-border-styles/-/tailwindcss-border-styles-1.0.1.tgz#d254734cabff116af0c6974457eceb4620f3d7cc"
+  integrity sha512-sG5o00EcoNEKulrCbe/2uBGAL6hO4BeQpUYvdsk0S4elouEACzD0LWMoH8ZIrBu2PD016N4sdioIqFHe/upDZg==
+  dependencies:
+    lodash "^4.17.15"
+
 tailwindcss-spinner@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/tailwindcss-spinner/-/tailwindcss-spinner-1.0.0.tgz#5769793e6ce2bab2ce25ad3efeefb64e788bd255"

@@ -4,7 +4,7 @@
  * Plugin Name: Modern ACF Options
  * Plugin URI:  https://github.com/log1x/modern-acf-options
  * Description: Modern styling for ACF Theme Options.
- * Version:     1.0.2
+ * Version:     1.0.3
  * Author:      Brandon Nifong
  * Author URI:  https://github.com/log1x
  * Licence:     MIT

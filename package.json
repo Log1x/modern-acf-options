@@ -6,6 +6,7 @@
     "precss": "^4.0.0",
     "tailwindcss": "^1.1.4",
     "tailwindcss-animations": "^1.0.0",
+    "tailwindcss-border-styles": "^1.0.1",
     "tailwindcss-spinner": "^1.0.0",
     "tailwindcss-typography": "^2.2.0"
   },

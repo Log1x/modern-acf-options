@@ -26,6 +26,10 @@
       .postbox-container {
         @apply .w-full .float-none .m-0;
 
+        .postbox-header {
+          @apply .hidden;
+        }
+
         .meta-box-sortables {
           @apply .min-h-0 .h-full .min-w-full;
 
@@ -111,8 +115,12 @@
               @apply .empty .animation-spin .animation-1s .animation-infinite .animation-linear .absolute .block .w-5 .h-5 .border-solid .border-2 .border-current .text-brand .rounded-full .border-r-transparent .border-t-transparent !important;
 
               @keyframes spin {
-                from { transform: rotate(0deg); }
-                to { transform: rotate(360deg); }
+                from {
+                  transform: rotate(0deg);
+                }
+                to {
+                  transform: rotate(360deg);
+                }
               }
 
               top: calc(50% - (config('theme.spacing.4') / 2));
@@ -134,4 +142,3 @@
     }
   }
 }
-
